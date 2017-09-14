@@ -1,0 +1,177 @@
+/* Navbar top */
+
+/* The navigation bar */
+.navbar {
+    overflow: hidden;
+    background-color: #FFFFFF;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+}
+
+/* Links are in this DIV */
+
+.buttons {
+    margin-right: 400px;
+}
+
+/* Links inside the navbar */
+.navbar a {
+    float: right;
+    display: block;
+    color: #002E5D;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+header {
+    height: 100px;
+    top: 0px;
+    text-align: center;
+}
+
+footer {
+    
+    bottom: 0px;
+    font-family: "Sans-Serif", Arial, Verdana;
+    margin-top: 50px;
+    height: 50px;
+    width: 100%;
+    background-color: #002E5D;
+    text-align: center;
+    color: #FFFFFF;
+    bottom: 0px;
+    vertical-align: middle;
+}
+
+#termslink {
+    color: #FFFFFF;
+}
+
+#teemaslogo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#loginimg, #registerimg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    vertical-align: middle;
+    margin-top: 20%;
+}
+
+.aboutcontent {
+    margin-top: 250px;
+    margin-bottom: 50px;
+    min-height: 500px;
+}
+
+.leftcontent {
+    font-family: "Sans-Serif", Arial, Verdana;
+    float: left;
+    display: block;
+    text-align: center;
+    width: 50%;
+    height: 500px;
+    background-color: #002E5D;
+    color: #FFFFFF;
+}
+
+.rightcontent {
+    font-family: "Sans-Serif", Arial, Verdana;
+    float: right;
+    display: block;
+    text-align: center;
+    width: 50%;
+    height: 500px;
+    background-color: #9B2032;
+    color: #FFFFFF;
+}
+
+.termstext {
+    color: #002E5D;
+    text-align: center;
+}
+
+.logolink {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 414px;
+    height: 198px;
+}
+
+.registerlink {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    vertical-align: middle;
+    width: 293px;
+    height: 96px;
+}
+
+.loginlink {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    vertical-align: middle;
+    width: 195px;
+    height: 99px;
+}
+
+.welcometext {
+    color: #002E5D;
+}
+
+.loginform, .registerform {
+    display:table;
+    color: #002E5D;
+    margin:0px auto;
+    padding-left:10px;
+    padding-bottom:5px;
+}
+
+.loginbutton {
+    margin-top: 5px;
+}
+
+.loginform {
+    text-align: center;
+}
+
+.footerp {
+    margin-top: 15px;
+    vertical-align: middle;
+}
+
+.content {
+    margin-top: 100px;
+    min-height: 700px;
+}
+
+.loginerror {
+    text-align: center;
+    font-size: 21px;
+    color: #002E5D;
+}
+
+.logouttext {
+    text-align: center;
+    font-size: 21px;
+    color: #002E5D;
+}
+
+h1.aboutsize {
+    font-size: 54px;
+}
+
+p.aboutsize {
+    font-size: 21px;
+}
+
+p.italic {
+    font-style: italic;
+}
